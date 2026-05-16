@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Credentials (NEVER COMMIT)
+service_account.json
+
+# Experiment logs
+experiment_log.csv
+polylens_log.csv
+
+# OS files
+.DS_Store
