@@ -1,0 +1,9 @@
+python -m venv venv  
+
+venv\Scripts\activate
+ 		
+cd ieee-live-image-translator
+
+set GOOGLE_APPLICATION_CREDENTIALS=service_account.json
+
+python app.py
